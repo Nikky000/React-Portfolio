@@ -1,0 +1,33 @@
+.home__bg{
+    background-image: url(E:/Portfolio/portfolio/src/img/bg.png);
+    background-color: #010101;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+li.nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.home__content{
+    padding: 125px 0px;
+}
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198,201,216,.75 )!important;
+}
+h2.home__text{
+     font-size: 54px;
+     line-height: 54px;
+     font-weight: 800;
+     font-family: Montserrat,sans-serif;
+
+}
+h3.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: Montserrat,sans-serif;
+}
