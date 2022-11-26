@@ -2,6 +2,11 @@ import React from 'react';
 import logo from "./img/logo.png";
 import './Home.css';
 function Home() {
+  //fixed Header
+  window.addEventListener("scroll",function(){
+    const header = this.document.querySelector(".header");
+    header.classList.toggle("active",window.scrollY > 0)
+  });
   return (
     <div className='home'>
        <div className='home__bg'>
@@ -15,7 +20,6 @@ function Home() {
               <a href='#About'><li className='nav__items mx__15'>About</li></a>
               <a href='#Services'><li className='nav__items mx__15'>Services</li></a>
               <a href='#Portfolio'><li className='nav__items mx__15'>Portfolio</li></a>
-              <a href='#Blog'><li className='nav__items mx__15'>Blog</li></a>
               <a href='#Contect'><li className='nav__items mx__15'>Contect</li></a>
             </ul>
           </div>
@@ -31,7 +35,7 @@ function Home() {
               Hi, I'm Dilesh Chouhan
             </h2>
             <h3 className='home__text sweet pz__10'>
-              Frontend Developer
+             A Frontend Developer
             </h3>
             </div>  
           </div>

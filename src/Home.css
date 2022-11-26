@@ -31,3 +31,14 @@ h3.home__text{
     line-height: 40px;
     font-family: Montserrat,sans-serif;
 }
+.header{
+    transition: .4s all ease;
+}
+
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
