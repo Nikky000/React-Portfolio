@@ -1,7 +1,7 @@
 .project{
     background-color: #191919;
 }
-img.project__img{
+img.project__img {
     border-radius: 10px;
     width: 100%;
     object-fit: cover;
@@ -29,14 +29,14 @@ img.project__img::after{
     opacity: .3;
     display: none;
 }
-.project__box:hover img.project__img{
-    transform: scale(1.1);
-}
 .project__box:hover .mask__effect{
     display: inline;
     transform: scale(1.1);
-}
-.project__meta.absolute{
+ }
+ .project__box:hover img.project__img{
+     transform: scale(1.1);
+ }
+ .project__meta.absolute {
     top: 0%;
     left: 0%;
     display: flex;
@@ -48,18 +48,18 @@ img.project__img::after{
     border-radius: 10px;
     width: 100%;
 }
-h5.project__text{
+h5.project__text {
     font-weight: 400;
     font-size: 20px;
     padding-bottom: 20px;
 }
-h4.project__text{
+h4.project__text {
     font-size: 22px;
-    font-family: poppins,sans-serif;
+    font-family: Poppins,sans-serif;
     font-weight: 700;
     padding-bottom: 20px;
 }
-a.project__btn{
+a.project__btn {
     padding: 12px 35px;
     border: 2px solid #ffffff87;
     border-radius: 5px;
@@ -69,7 +69,7 @@ a.project__btn:hover{
     background-color: #f9004d;
     border: 2px solid #f9004d;
 }
-button.btn{
+button.btn {
     padding: 15px 20px;
     font-size: 18px;
     font-weight: 500;
@@ -79,10 +79,21 @@ button.btn{
     color: #fff!important;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transform: .4s all ease;
-} 
+    transition: .4s all ease;
+}
 button.view__more:hover{
     background-color: #fff;
     border: 2px solid #f9004d;
-    color: #f9004d !important;
+    color: #f9004d!important;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px){
+h5.project__text {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+h4.project__text {
+    font-size: 18px;
+}
 }

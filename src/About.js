@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./img/about.jpg";
+import Resume from "./DileshChouhan_Resume.pdf";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -34,7 +35,7 @@ function About() {
                 but the majority have suffered in some form, by injected humour,
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="#">
+                <a href={Resume}>
                   <button className="about btn pointer">Download Cv</button>
                 </a>
                 <a href="#">
