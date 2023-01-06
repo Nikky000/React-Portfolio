@@ -38,8 +38,7 @@ function About() {
                 <a href={Resume}>
                   <button className="about btn pointer">Download Cv</button>
                 </a>
-                // eslint-disable-next-line
-                <a href="#">
+                                 <a href="#">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>
@@ -47,10 +46,8 @@ function About() {
           </div>
         </div>
       </div>
-      {/* UP TO TOP BTN */}
       <div className="up__to__top__btn">
-      // eslint-disable-next-line
-        <a href="#" className="bottom__to__top">
+               <a href="#" className="bottom__to__top">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
