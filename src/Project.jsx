@@ -24,6 +24,7 @@ function Project() {
                         <div className='project__meta absolute'>
                             <h5 className='project__text'>Development</h5>
                             <h4 className='project__text'>watch my project</h4>
+                            // eslint-disable-next-line
                             <a href='#' className='project__btn'>View Details</a>
                         </div>
                      </div>
@@ -41,6 +42,7 @@ function Project() {
                         <div className='project__meta absolute'>
                             <h5 className='project__text'>Development</h5>
                             <h4 className='project__text'>watch my project</h4>
+                            // eslint-disable-next-line
                             <a href='#' className='project__btn'>View Details</a>
                         </div>
                      </div>
@@ -58,6 +60,7 @@ function Project() {
                      <div className='project__meta absolute'>
                             <h5 className='project__text'>Development</h5>
                             <h4 className='project__text'>watch my project</h4>
+                            // eslint-disable-next-line
                             <a href='#' className='project__btn'>View Details</a>
                         </div>
                 </div>
