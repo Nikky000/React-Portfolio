@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./img/about.jpg";
-import Resume from "./DileshChouhan_Resume.pdf";
+import Resume from "./resume_dilesh_latest.pdf";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
