@@ -8,8 +8,6 @@ function Project() {
     <div className='project component__space' id='Portfolio'>
      <div className="heading">
         <h1 className="heading">My Projects</h1>
-        <p className="heading p__color">xyz</p>
-        <p className="heading p__color"> xyz</p>
       </div>
       <div className='container'>
          <div className='row'>
@@ -22,9 +20,9 @@ function Project() {
                         <div className='mask__effect'>
                         </div>
                         <div className='project__meta absolute'>
-                            <h5 className='project__text'>Development</h5>
+                            <h5 className='project__text'>Web Development</h5>
                             <h4 className='project__text'>watch my project</h4>
-                                                         <a href='#' className='project__btn'>View Details</a>
+                                                         <a href='https://github.com/Nikeex/X-ify' className='project__btn'>View Details</a>
                         </div>
                      </div>
                 </div>
@@ -39,9 +37,9 @@ function Project() {
                         <div className='mask__effect'>
                         </div>
                         <div className='project__meta absolute'>
-                            <h5 className='project__text'>Development</h5>
-                            <h4 className='project__text'>watch my project</h4>
-                                                         <a href='#' className='project__btn'>View Details</a>
+                            <h5 className='project__text'>Web Development</h5>
+                            <h4 className='project__text'>watch my Blockchain project</h4>
+                          <a href='https://github.com/Nikeex/Fundraiser' className='project__btn'>View Details</a>
                         </div>
                      </div>
                 </div>
@@ -58,7 +56,7 @@ function Project() {
                      <div className='project__meta absolute'>
                             <h5 className='project__text'>Development</h5>
                             <h4 className='project__text'>watch my project</h4>
-                                                         <a href='#' className='project__btn'>View Details</a>
+                         <a href='' className='project__btn'>View Details</a>
                         </div>
                 </div>
             </div>

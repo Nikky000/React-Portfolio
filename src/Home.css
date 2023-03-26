@@ -1,9 +1,11 @@
 .home__bg{
-    background-image: url(./img/bg.png);
+    background-image: url(./img/portfolio_header.png);
     background-color: #010101;
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
 }
 li.nav__items{
     font-size: 18px;
@@ -40,11 +42,14 @@ h4.home__text{
 .header{
     transition: .4s all ease;
 }
+.mine{
+    margin-top: 1%;
+}
 .header.active{
     position: fixed;
-    z-index: 1000;
+    height: 10%;
     width: 100%;
-    padding: 0px 30px;
+    padding: 0px 20px;
     background-color: #191919;
 }
 .toggle__menu {

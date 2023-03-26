@@ -6,20 +6,21 @@ function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
-    header.classList.toggle("active", window.scrollY > 0);
+    header.classList.toggle("active", window.scrollY > 600);
   });
   // Toogle Menu
    const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
+        <div>
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
             <img src={logo} alt="" />
           </div>
-          <div className="navigation pxy__30">
+          <div className="navigation pxy__30 mine">
             <ul className="navbar d__flex">
-              <a href="#Home">
+              <a href="#contact">
                 <li className="nav__items mx__15">Home</li>
               </a>
               <a href="#About">
@@ -84,6 +85,7 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

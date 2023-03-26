@@ -32,6 +32,7 @@ input.contact{
     border-radius: 10px;
     width: 100%;
     overflow: hidden;
+    margin-top: 11%;
 }
 textarea#message{
     height: 120px;

@@ -19,26 +19,29 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              I am a 3rd-year student pursuing Computer Science and Engineering at the
+             prestigious Indian Institute of Information Technology Vadodara.
+             <p className="about__text p__color">
+             My passion for programming and developing innovative solutions is evident 
+             in my academic performance and extracurricular activities.
+             </p>
+            <p className="about__text p__color">
+            While I enjoy software development, I am equally passionate about frontend development, and
+              I have a natural flair for creating visually appealing and user-friendly websites.
+            </p >
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              I am a self-motivated and goal-oriented individual, with a strong work ethic and the ability to consistently deliver projects on time.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+              In summary, I am a skilled and passionate computer science student who is eager to contribute my knowledge and expertise to the field of software development. 
+              I am dedicated to creating innovative solutions that make a positive impact on people's lives.
               </p>
               <div className="about__button d__flex align__items__center">
                 <a href={Resume}>
                   <button className="about btn pointer">Download Cv</button>
                 </a>
-                                 <a href="#">
+                                 <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>
