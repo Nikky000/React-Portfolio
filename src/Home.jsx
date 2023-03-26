@@ -79,7 +79,7 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
+              <h1 className="home__text pz__10">Hey!!</h1>
               <h2 className="home__text pz__10">Dilesh Chouhan</h2>
               <h3 className="home__text sweet pz__10">Frontend Developer.</h3>
             </div>
