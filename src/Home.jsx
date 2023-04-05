@@ -14,11 +14,11 @@ function Home() {
     <div className="home" id="Home">
       <div className="home__bg">
         <div>
-        <div className="header d__flex align__items__center pxy__30">
+        <div className="header d__flex align__items__center px_new axis">
           <div className="logo">
             <img src={logo} alt="" />
           </div>
-          <div className="navigation pxy__30 mine">
+          <div className="navigation pxy__30">
             <ul className="navbar d__flex">
               <a href="#contact">
                 <li className="nav__items mx__15">Home</li>
@@ -38,7 +38,7 @@ function Home() {
             </ul>
           </div>
           {/* Toogle Menu */}
-          <div className="toggle__menu">
+          <div className="toggle__menu right_gap">
             <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="16"

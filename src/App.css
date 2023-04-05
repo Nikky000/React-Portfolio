@@ -4,6 +4,12 @@
   box-sizing: border-box;
   outline: none;
 }
+.right_gap{
+  padding-right: 5%;
+}
+.axis{
+  z-index: 2;
+}
 body{
   width: 100%;
   height: 100%;
@@ -53,6 +59,9 @@ p{
 }
 .px__30{
   padding: 0px 30px;
+}
+.px_new{
+  padding-left: 3%;
 }
 .pxy__30{
   padding: 30px;
