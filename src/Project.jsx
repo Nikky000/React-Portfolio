@@ -22,7 +22,7 @@ function Project() {
                         <div className='project__meta absolute'>
                             <h5 className='project__text'>Web Development</h5>
                             <h4 className='project__text'>watch my project</h4>
-                                                         <a href='https://github.com/Nikeex/X-ify' className='project__btn'>View Details</a>
+                             <a href='https://github.com/Nikeex/X-ify' className='project__btn'>View Details</a>
                         </div>
                      </div>
                 </div>
